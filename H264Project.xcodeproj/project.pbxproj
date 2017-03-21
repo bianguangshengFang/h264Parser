@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		209F1D801E80B85800FA2CFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 209F1D7F1E80B85800FA2CFE /* main.c */; };
 		209F1D881E810F2400FA2CFE /* H264Parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 209F1D861E810F2400FA2CFE /* H264Parser.c */; };
+		209F1D8C1E8119AB00FA2CFE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 209F1D8B1E8119AB00FA2CFE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		209F1D871E810F2400FA2CFE /* H264Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264Parser.h; sourceTree = "<group>"; };
 		209F1D891E81107D00FA2CFE /* .ignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .ignore; sourceTree = "<group>"; };
 		209F1D8A1E81137E00FA2CFE /* sintel.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sintel.h264; sourceTree = "<group>"; };
+		209F1D8B1E8119AB00FA2CFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		209F1D731E80B85300FA2CFE = {
 			isa = PBXGroup;
 			children = (
+				209F1D8B1E8119AB00FA2CFE /* README.md */,
 				209F1D891E81107D00FA2CFE /* .ignore */,
 				209F1D7E1E80B85800FA2CFE /* H264Project */,
 				209F1D7D1E80B85800FA2CFE /* Products */,
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209F1D8C1E8119AB00FA2CFE /* README.md in Sources */,
 				209F1D881E810F2400FA2CFE /* H264Parser.c in Sources */,
 				209F1D801E80B85800FA2CFE /* main.c in Sources */,
 			);
