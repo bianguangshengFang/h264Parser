@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		209F1D801E80B85800FA2CFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 209F1D7F1E80B85800FA2CFE /* main.c */; };
+		209F1D881E810F2400FA2CFE /* H264Parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 209F1D861E810F2400FA2CFE /* H264Parser.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		209F1D7C1E80B85800FA2CFE /* H264Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = H264Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		209F1D7F1E80B85800FA2CFE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		209F1D861E810F2400FA2CFE /* H264Parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = H264Parser.c; sourceTree = "<group>"; };
+		209F1D871E810F2400FA2CFE /* H264Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264Parser.h; sourceTree = "<group>"; };
+		209F1D891E81107D00FA2CFE /* .ignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .ignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		209F1D731E80B85300FA2CFE = {
 			isa = PBXGroup;
 			children = (
+				209F1D891E81107D00FA2CFE /* .ignore */,
 				209F1D7E1E80B85800FA2CFE /* H264Project */,
 				209F1D7D1E80B85800FA2CFE /* Products */,
 			);
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				209F1D7F1E80B85800FA2CFE /* main.c */,
+				209F1D861E810F2400FA2CFE /* H264Parser.c */,
+				209F1D871E810F2400FA2CFE /* H264Parser.h */,
 			);
 			path = H264Project;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209F1D881E810F2400FA2CFE /* H264Parser.c in Sources */,
 				209F1D801E80B85800FA2CFE /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +257,7 @@
 				209F1D851E80B85800FA2CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
