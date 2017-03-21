@@ -29,6 +29,7 @@
 		209F1D861E810F2400FA2CFE /* H264Parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = H264Parser.c; sourceTree = "<group>"; };
 		209F1D871E810F2400FA2CFE /* H264Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264Parser.h; sourceTree = "<group>"; };
 		209F1D891E81107D00FA2CFE /* .ignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .ignore; sourceTree = "<group>"; };
+		209F1D8A1E81137E00FA2CFE /* sintel.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sintel.h264; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		209F1D7E1E80B85800FA2CFE /* H264Project */ = {
 			isa = PBXGroup;
 			children = (
+				209F1D8A1E81137E00FA2CFE /* sintel.h264 */,
 				209F1D7F1E80B85800FA2CFE /* main.c */,
 				209F1D861E810F2400FA2CFE /* H264Parser.c */,
 				209F1D871E810F2400FA2CFE /* H264Parser.h */,

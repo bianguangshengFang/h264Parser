@@ -17,7 +17,7 @@ int simplest_h264_parser(char *url);
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    simplest_h264_parser("/Users/bianguangsheng/Desktop/ffmpegStudyProject/H264Project/H264Project/ ");
+    simplest_h264_parser("/Users/bianguangsheng/Desktop/ffmpegStudyProject/H264Project/H264Project/sintel.h264");
     
     
     printf("Hello, World!\n");
